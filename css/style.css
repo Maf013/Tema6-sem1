@@ -75,3 +75,32 @@ div.scroll-container img {
     }
 }
 
+/* Header baggrundsfarve */
+.outline-color {
+    background-color: #f0f0f0; /* Første farve */
+    padding: 10px;
+}
+
+/* Ekstra farve (gradient eller separat farve) */
+.extra-color {
+    background: linear-gradient(90deg, #723333 50%, #723333 50%);
+}
+
+/* Ensartet størrelse for billeder */
+.scroll-container img {
+    width: 200px; /* Fast bredde */
+    height: 300px; /* Fast højde */
+    object-fit: cover; /* For at undgå forvrængning */
+}
+/* Tilføj afrundede hjørner til billeder */
+.scroll-container img {
+    border-radius: 20px; /* Corner radius på 10px */
+}
+
+/* Ensartet farve som headeren */
+footer {
+    background-color: #B6A8A8;
+    padding: 20px 10px; /* Giver lidt luft */
+    color: #000; /* Tekstfarve for kontrast */
+    text-align: center; /* Centrer tekst */
+}
