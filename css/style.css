@@ -77,7 +77,7 @@ div.scroll-container img {
 
 /* Header baggrundsfarve */
 .outline-color {
-    background-color: #f0f0f0; /* Første farve */
+    background-color: #723333; /* Første farve */
     padding: 10px;
 }
 
@@ -103,4 +103,47 @@ footer {
     padding: 20px 10px; /* Giver lidt luft */
     color: #000; /* Tekstfarve for kontrast */
     text-align: center; /* Centrer tekst */
+}
+/* Style for header-link to look like normal text */
+.header-link {
+    text-decoration: none; /* Fjern understregning */
+    color:inherit ; /* Arv farve fra forældreelement */
+    font-weight: bold; /* Bevar fed skrift */
+}
+
+.header-link:hover {
+    text-decoration: underline; /* Understregning ved hover for visuel feedback */
+}
+
+
+
+/* Wrapper til hvert billede */
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 10px; /* Mellemrum mellem billeder */
+}
+
+/* Style til billeder */
+.image-wrapper img {
+    width: 300px; /* Juster bredde */
+    height: 400px; /* Juster højde */
+    border-radius: 10px; /* Corner radius */
+    object-fit: cover; /* Forhindrer forvrængning */
+}
+
+/* Tekst ovenpå billederne */
+.image-text {
+    position: absolute;
+    bottom: 10px; /* Placer teksten i bunden af billedet */
+    left: 50%; /* Centrer teksten horisontalt */
+    transform: translateX(-50%); /* Juster for præcis centrering */
+    background: rgba(255, 255, 255, 0.7); /* Transparent hvid baggrund */
+    color: #000; /* Sort tekst for kontrast */
+    padding: 5px 10px; /* Indvendig afstand for tekstboksen */
+    border-radius: 5px; /* Afrundede hjørner for boksen */
+    font-size: 16px; /* Tekststørrelse */
+    font-weight: bold; /* Fed skrift */
+    text-align: center; /* Centrer teksten */
+    width: 80%; /* Tilpas tekstens bredde */
 }
