@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E2E2E2;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+.recommendation {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.map-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cafe-img {
+    width: 100%;
+    height: auto;
+}
+
+/* QR Code Section */
+.qr-code h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.qr-code p {
+    font-size: 1em;
+}
+
+/* Address and Contact Section */
+.address-contact, .contact {
+    margin-bottom: 20px;
+}
+
+.address-contact h3 {
+    font-size: 1.2em;
+}
+
+.address-contact p, .contact p {
+    font-size: 1em;
+}
+
+
+/* Mobile-Friendly Adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    } }
+
+header h2 {
+    font-size: 1em;
+}
+
+.recommendation, .address-contact, .contact {
+    font-size: 1em;
+}
+
+.map-image img, .cafe-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Ensartet farve som headeren */
+footer {
+    background-color: #B6A8A8;
+    padding: 20px 10px; /* Giver lidt luft */
+    color: #000; /* Tekstfarve for kontrast */
+    text-align: center; /* Centrer tekst */
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E2E2E2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #B6A8A8;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    flex: 1;
+    background-color: #EACB9A;
+}
+
+.lang-button {
+    background-color: #EACB9A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.lang-button:hover {
+    background-color: #555;
+}
+
+div.scroll-container {
+    background-color: #723333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container img {
+    padding: 10px;
+}
+.outline-color
+
+
+.footer{
+    background-color: #B6A8A8;
+}
+
+
+.my-button {
+    width: 300px;         /* Gør knapperne lange */
+    padding: 15px 20px;
+    margin: 10px 0;       /* Mellemrum mellem knapperne */
+    font-size: 16px;
+    background-color: #723333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.my-button:hover {
+    background-color: #934545;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+}
+
+/* Header baggrundsfarve */
+.outline-color {
+    background-color: #f0f0f0; /* Første farve */
+    padding: 10px;
+}
+
+/* Ekstra farve (gradient eller separat farve) */
+.extra-color {
+    background: linear-gradient(90deg, #723333 50%, #723333 50%);
+}
+
+/* Ensartet størrelse for billeder */
+.scroll-container img {
+    width: 200px; /* Fast bredde */
+    height: 300px; /* Fast højde */
+    object-fit: cover; /* For at undgå forvrængning */
+}
+/* Tilføj afrundede hjørner til billeder */
+.scroll-container img {
+    border-radius: 20px; /* Corner radius på 10px */
+}
+
+/* Ensartet farve som headeren */
+footer {
+    background-color: #B6A8A8;
+    padding: 20px 10px; /* Giver lidt luft */
+    color: #000; /* Tekstfarve for kontrast */
+    text-align: center; /* Centrer tekst */
